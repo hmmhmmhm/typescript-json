@@ -257,7 +257,7 @@ export interface ITypeArray<T> extends ITypeGeneral {
      * @example
      * aliases: {type: Array, arrayType: {type: String, minLength: 1}}
      */
-    arrayType?: ITypeArrayActualOption<T>
+    arrayType?: ITypeArrayActualOption<T> | string | number
 
     /**
      * Ensures duplicate-free array,
