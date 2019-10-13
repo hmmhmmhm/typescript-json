@@ -12,6 +12,7 @@ exports.TypeString = function (opt) {
         default: opt.default,
         minLength: opt.minLength,
         maxLength: opt.maxLength,
+        regex: opt.regex,
         clip: opt.clip,
         enum: opt.enum,
         stringTransform: opt.stringTransform
